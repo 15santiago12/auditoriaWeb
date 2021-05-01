@@ -1,0 +1,102 @@
+.contenedor
+{
+  width: 100%;
+  height: auto;
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+#card1{
+    
+    width: 18rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    border: 3px solid;
+    border-color: orange;
+    border-radius: 30px;
+
+}
+
+#texto{
+  font-family: 'Nanum Myeongjo', serif;
+  color: black;
+}
+#texto1{
+  font-family: 'Permanent Marker', cursive;
+  color: orangered;
+}
+
+#texto2{
+  font-family: 'Permanent Marker', cursive;
+  color: orangered;
+  transform:translate(20%, 0%);
+}
+#texto3{
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+#texto4{
+  font-family: 'Permanent Marker', cursive;
+  color: orangered;
+}
+
+#boton-Accesorio{
+  background-color: #FF1F00;
+  transform:translate(697%, -30%);
+  font-family: 'Roboto', sans-serif;
+  border-radius: 30px;
+}
+
+#boton-Guarderia{
+  background-color: #FF1F00;
+  transform:translate(440%, -30%);
+  font-family: 'Roboto', sans-serif;
+  border-radius: 30px;
+}
+
+#boton-Hospital{
+  background-color: #FF1F00;
+  transform:translate(480%, -30%);
+  font-family: 'Roboto', sans-serif;
+  border-radius: 30px;
+}
+
+#boton-Medicamento{
+  background-color: #FF1F00;
+  transform:translate(570%, -30%);
+  font-family: 'Roboto', sans-serif;
+  border-radius: 30px;
+}
+
+
+#titulo{
+  margin-top: 10px;
+}
+
+#modal-cuerpo{
+  background-color: #C8C8C8 ;
+}
+
+#boton-Agregar{
+  background-color: #174d12;
+  /*transform:translate(697%, -30%);*/
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border-radius: 30px;
+}
+
+#boton-Agregar1{
+  background-color: #0011f8;
+  /*transform:translate(697%, -30%);*/
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border-radius: 30px;
+}
+
+#boton-Eliminar{
+  background-color: #db1002;
+  /*transform:translate(697%, -30%);*/
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border-radius: 30px;
+}

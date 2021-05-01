@@ -1,0 +1,35 @@
+#encabezado{
+  background-color: orangered;
+}
+#tituli-menu{
+  font-family: 'Roboto', sans-serif;
+  color: aliceblue;
+
+}
+#titulo{
+    position: absolute;
+    font-family: 'Train One', cursive;
+    font-size: 35px;
+    left:33%;
+    top: 3%;
+    padding:40px;
+    color: orangered;
+
+}
+
+#titulo2{
+  font-family: 'Train One', cursive;
+  font-size: 35px;
+  color: orangered;
+  margin-left: 400px;
+  /*transform:translate(35%, 30%);*/
+
+}
+
+#sesion{
+  margin-left:150px ;
+  font-family: 'Roboto', sans-serif;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 30px;
+}
