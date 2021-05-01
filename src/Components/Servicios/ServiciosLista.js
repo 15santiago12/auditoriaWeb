@@ -161,7 +161,7 @@ class ServiciosLista extends Component {
                     </ModalBody>
 
                     <ModalFooter>
-                        {this.state.tipoModal == 'insertar' ?
+                        {this.state.tipoModal === 'insertar' ?
                             <button id="boton-Agregar" className="btn btn-success" onClick={() => this.peticionPost()}>
                                 Insertar
                     </button> : <button id="boton-Agregar" className="btn btn-primary" onClick={() => this.peticionPut()}>
