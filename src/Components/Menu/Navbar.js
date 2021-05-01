@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Cookies from 'universal-cookie';
 
-const url = "http://localhost:4000/empleados/";
+const url = "https://auditoria4-2021.herokuapp.com/empleados/";
 const cookies = new Cookies();
 
 class Navbar extends Component {
