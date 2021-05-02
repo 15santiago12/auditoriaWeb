@@ -1,8 +1,8 @@
-import React, { Component, useState, useEffect } from 'react'
+import React, { Component } from 'react'
 import Axios from 'axios';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEdit, faTrashAlt, faFileSignature, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faEdit, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 
 const url = "https://auditoria4-2021.herokuapp.com/guarderia/"

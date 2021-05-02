@@ -3,8 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css'
 import Axios from 'axios';
 import Cookies from 'universal-cookie';
-import Bienvenido from '../Components/Menu/Bienvenido'
-import Bienvenido2 from '../Components/estilos/Titulo'
+import Bienvenido from '../Components/Menu/Bienvenido';
 
 const url = "https://auditoria4-2021.herokuapp.com/empleados/"; 
 const cookies = new Cookies();
