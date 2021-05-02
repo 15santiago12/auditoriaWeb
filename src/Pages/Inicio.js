@@ -6,7 +6,7 @@ import Cookies from 'universal-cookie';
 import Bienvenido from '../Components/Menu/Bienvenido'
 import Bienvenido2 from '../Components/estilos/Titulo'
 
-const url = "http://localhost:4000/empleados/"; 
+const url = "https://auditoria4-2021.herokuapp.com/empleados/"; 
 const cookies = new Cookies();
 
 class Inicio extends Component {
